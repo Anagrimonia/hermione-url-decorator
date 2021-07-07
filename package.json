@@ -1,0 +1,25 @@
+{
+  "name": "hermione-url-decorator",
+  "version": "1.0.0",
+  "description": "Plugin for Hermione that decorates URL.",
+  "main": "src/index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": "https://github.com/Anagrimonia/hermione-url-decorator",
+  "author": "Anastasiia Kolonskaia",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js, css, md}": "prettier --write"
+  },
+  "dependencies": {
+    "urijs": "^1.19.6"
+  }
+}
